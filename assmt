@@ -1,1 +1,74 @@
 
+## Python OOP Assignment
+**Q1. **What is the purpose of Python&#39;s OOP?****
+
+Q2.**Where does an inheritance search look for an attribute?**
+--> it first looks in instance object then in classes then in superclasses.
+Q3. **How do you distinguish between a class object and an instance object?**
+--> class is a blueprint from which instance objects are created. Instance object is an instance of a class.
+Q4. **What makes the first argument in a class’s method function special?**
+-->first argument self is special because it has class's instance object as its first argument.
+Q5. **What is the purpose of the __init__ method?**
+--> __init__ method lets initialize object attributes of class.
+
+Q6. **What is the process for creating a class instance?**
+-->class instance can be created by calling class name with requirement arguments present in __int__ method.
+Q7. **What is the process for creating a class?**
+--> a class can be created by using class keyword.
+Q8. **How would you define the superclasses of a class?**
+-->superclass is a parent class from which subclasses/child classes inherit the features.
+Q9. **What is the relationship between classes and modules?**
+-->modules are files with .py extension which may contains variables, functions and even classes.
+Q10. **How do you make instances and classes?**
+--> we can make instances by calling class name with attributes present in __init__ method.
+Q11. **Where and how should be class attributes created?**
+-->class attributes creation can be done by simply assigning a value to a variable. class attributes should be created outside of __init__ method.
+Q12. **Where and how are instance attributes created?**
+-->instance attribute are created based on __init__ function and these should be created inside class name.
+Q13. **What does the term &quot;self&quot; in a Python class mean?**
+-->self refers to instance of class.
+**Q14.** **How does a Python class handle operator overloading?**
+-->it handles by providing extended functionality beyond their predefined functionality.
+**Q15. When do you consider allowing operator overloading of your classes?**
+-->when we want o override class of superclass in subclass.
+**Q16. What is the most popular form of operator overloading?**
+--> +
+**Q17. What are the two most important concepts to grasp in order to comprehend Python OOP code?**
+-->inheritance and polymorphism
+**Q18. Describe three applications for exception processing.**
+-->syntax errors, logical errors and exceptions.
+**Q19. What happens if you don&#39;t do something extra to treat an exception?**
+-->it stops program execution and throws an error.
+**Q20. What are your options for recovering from an exception in your script?**
+-->catch an error and print it.
+**Q21. Describe two methods for triggering exceptions in your script.**
+-->try and raise
+**Q22. Identify two methods for specifying actions to be executed at termination time, regardless of
+whether or not an exception exists.**
+-->finally
+**Q23. What is the purpose of the try statement?**
+-->try statement is to test for errors while it is being executed.
+**Q24. What are the two most popular try statement variations?**
+-->try/except/else and try/except/finally
+**Q25. What is the purpose of the raise statement?**
+-->to raise an exception manually, raise statement is used in try block.
+**Q26. What does the assert statement do, and what other statement is it like?**
+-->assert statement checks for a condition and returns true or assertion error. it is like if else.
+**Q27. What is the purpose of the with/as argument, and what other statement is it like?**
+-->with/as simplifies management of file streams. it is like open file and try writing/reading and finally closing. by using with file will be closed automatically.
+**Q28. What are *args, **kwargs?**
+-->*args are non-keyworded(positional) variable length argument list to function/method. **kwargs are variable length arguments that accepts named key-val pairs. 
+**Q29. How can I pass optional or keyword parameters from one function to another?**
+-->we can use *args or **kwargs 
+**Q30. What are Lambda Functions?**
+-->lambda functions are anonymous functions that can be used for short operations and improves readability.
+Q31. Explain Inheritance in Python with an example?
+-->Inheritance defines the classes that inherit from superclasses as derived/sub-classes.
+Q32. Suppose class C inherits from classes A and B as class C(A,B).Classes A and B both have their own versions of method func(). If we call func() from an object of class C, which version gets invoked?
+-->A version gets invoked because left to right is priority.
+Q33. Which methods/functions do we use to determine the type of instance and inheritance?
+--> to check type of instance - isinstance() and to check type of inheritance - issubclass()
+Q34. Explain the use of the 'nonlocal' keyword in Python.
+-->nonlocal refers to variables declared within nested functions.
+Q35. What is the global keyword?
+-->global keyword refers to variables having the scope within the whole program.
