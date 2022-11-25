@@ -1,7 +1,7 @@
 
 ## Python OOP Assignment
 **Q1. **What is the purpose of Python&#39;s OOP?****
-
+--> to implement concepts like inheritance and polymorphism and encapsulation python OOP is used.
 Q2.**Where does an inheritance search look for an attribute?**
 --> it first looks in instance object then in classes then in superclasses.
 Q3. **How do you distinguish between a class object and an instance object?**
